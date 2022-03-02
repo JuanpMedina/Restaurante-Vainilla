@@ -1,0 +1,22 @@
+/* 
+selector{
+
+}
+*/
+
+.botones {
+    border-radius: 5px;
+}
+
+#btnEnviar {
+    padding: 5px;
+}
+
+p {
+    color: darkslategrey;
+}
+
+.titulo {
+    color: cyan;
+}
+
