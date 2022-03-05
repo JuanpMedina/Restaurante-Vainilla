@@ -82,7 +82,7 @@
                 <img src="./imagenes/vision.jpeg" alt="" srcset="" height="350" width="400">
             </center>
         </div>
-
+    </div>
         <div class="row">
             <div class="column">
                 <center>
@@ -113,7 +113,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+
     <footer id="registros">
         <div class="row">
             <div class="column">
@@ -128,19 +128,26 @@
                 </center>
             </div>
             <div class="column">
-                <form action="">
+
+                <h2>Registro</h2>
+                <form action="javascript:void(0)" onsubmit="obtenerValoresFormulario()">
                     <input type="email" placeholder="Ingrese su correo" id="txtCorreo">
                     <br>
-                    <input type="text" placeholder="Ingrese su solicitud" id="txtAsunto">
+                    <input type="text" placeholder="Ingrese su nombre" id="txtNombre">
                     <br>
-                    <textarea name="" placeholder="Ingrese una descripcion" id="txtDescripcion" cols="30" rows="10"></textarea>
+                    <input type="text" placeholder="Ingrese su telefono" id="txtCelular">
+                    <br>
+                    <input type="password" placeholder="Ingrese su contraseña" id="txtClave">
+                    <br>
+                    <textarea name="" placeholder="Ingrese su dirección" id="txtDireccion"
+                     cols="30" rows="10"></textarea>
                     <br>
                     <input type="submit" value="Enviar datos">
                 </form>
             </div>
         </div>
-
     </footer>
+    <script src="./index.js"></script>
 
 </body>
 
